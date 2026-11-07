@@ -1,5 +1,5 @@
 // Paste your deployed Worker URL here after deployment. Keep the quotes.
-const API_BASE_URL = "https://REPLACE-WITH-YOUR-WORKER.workers.dev";
+const API_BASE_URL = "https://marketlens.sreekeshsree100.workers.dev";
 const ownerKey = (() => {
   let key = localStorage.getItem("marketlens_owner");
   if (!key) { key = "ml_" + crypto.randomUUID().replaceAll("-",""); localStorage.setItem("marketlens_owner",key); }
